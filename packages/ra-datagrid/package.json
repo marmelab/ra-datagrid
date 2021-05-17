@@ -1,7 +1,7 @@
 {
   "name": "ra-datagrid",
   "version": "1.0.0",
-  "description": "Integration of Material-ui's <Datagrid> into react-admin ",
+  "description": "Integration of Material-ui's <Datagrid> into react-admin",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "sideEffects": false,
