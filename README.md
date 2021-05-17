@@ -2,7 +2,7 @@
 
 Integration of [Material-ui's `<Datagrid>`](https://material-ui.com/components/data-grid/) into react-admin.
 
-https://user-images.githubusercontent.com/99944/118508750-c0beae80-b72f-11eb-9029-dfcacf58a486.mp4
+https://user-images.githubusercontent.com/99944/118509356-3e82ba00-b730-11eb-86ac-3f9895529e94.mp4
 
 ## Features
 
