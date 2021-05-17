@@ -2,6 +2,8 @@
 
 Integration of [Material-ui's `<Datagrid>`](https://material-ui.com/components/data-grid/) into react-admin.
 
+https://user-images.githubusercontent.com/99944/118508750-c0beae80-b72f-11eb-9029-dfcacf58a486.mp4
+
 ## Features
 
 - Server-side filtering, sorting and pagination via the `dataProvider`
