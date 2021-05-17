@@ -1,0 +1,15 @@
+{
+  "name": "ra-datagrid-workspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {    
+    "start": "yarn workspace datagrid-demo start",
+    "build": "yarn workspace ra-datagrid build"
+  }
+}

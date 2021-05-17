@@ -1,0 +1,36 @@
+{
+  "name": "ra-datagrid",
+  "version": "1.0.0",
+  "description": "Integration of Material-ui's <Datagrid> into react-admin ",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "repository": "https://github.com/marmelab/ra-datagrid",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/data-grid": "4.0.0-alpha.26",
+    "@types/lodash": "^4.14.168",
+    "@types/react-dom": "^17.0.3",
+    "lodash": "^4.17.21",
+    "react": "17.0.2",
+    "react-admin": "3.14.5",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3",
+    "rimraf": "^2.6.3"
+  },
+  "files": [
+    "*.md",
+    "lib",
+    "esm",
+    "src",
+    "docs"
+  ],
+  "scripts": {
+    "build": "yarn run build-cjs && yarn run build-esm",
+    "build-cjs": "rimraf ./lib && tsc",
+    "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+    "watch": "tsc --outDir esm --module es2015 --watch"
+  }
+}
